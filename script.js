@@ -13,11 +13,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     // 2. Initialize Ultra-Premium Lenis Smooth Scrolling
     const lenis = new Lenis({
-        lerp: 0.05, // Ultra smooth, heavy inertia
-        wheelMultiplier: 0.8, // Slightly slower for a more cinematic feel
+        lerp: 0.07, // Balanced inertia
+        wheelMultiplier: 1.0, // Normal cinematic feel
         smoothWheel: true,
-        smoothTouch: true, // Bring premium scrolling to mobile/touch
-        touchMultiplier: 1.5,
+        smoothTouch: false, // Let mobile use native momentum scrolling to prevent over-speeding
         gestureDirection: 'vertical',
         infinite: false,
     });
