@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugency | Premium Modern Marketing Agency & Software Development</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Ugency is a premium modern marketing agency based in Kerala. We specialize in custom software development, UGC content creation, SEO, and data-driven digital marketing to scale your brand.">
+    <meta name="keywords" content="Modern Marketing Agency, Software Development, Premium Digital Agency, Kerala Digital Agency, SEO, AI Automation, UGC Content Creation, Brand Strategy, Performance Marketing">
+    <meta name="author" content="Ugency">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://ugency.com/">
+
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Ugency | Premium Modern Marketing Agency & Software Development">
+    <meta property="og:description" content="Ugency is a premium modern marketing agency based in Kerala. We specialize in custom software development, UGC content creation, SEO, and data-driven digital marketing.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ugency.com/">
+    <meta property="og:image" content="https://ugency.com/og-image.jpg">
+    <meta property="og:site_name" content="Ugency">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ugency | Premium Modern Marketing Agency & Software Development">
+    <meta name="twitter:description" content="Premium modern marketing agency based in Kerala. Custom software, UGC content, and SEO.">
+    <meta name="twitter:image" content="https://ugency.com/og-image.jpg">
+
+    <!-- JSON-LD Structured Data (AEO & GEO Optimization) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Ugency",
+      "image": "https://ugency.com/og-image.jpg",
+      "url": "https://ugency.com/",
+      "telephone": "+918848877203",
+      "email": "ugency.in@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kochi / Calicut",
+        "addressRegion": "Kerala",
+        "addressCountry": "IN"
+      },
+      "description": "Ugency is a premium modern marketing agency offering custom software development, UGC content creation, SEO, branding, and digital marketing services.",
+      "sameAs": [
+        "https://facebook.com/ugency",
+        "https://instagram.com/ugency",
+        "https://linkedin.com/company/ugency"
+      ],
+      "knowsAbout": ["Digital Marketing", "Software Development", "UGC Content Creation", "SEO Optimization", "Brand Strategy", "AI Automation"]
+    }
+    </script>
+
+    <!-- JSON-LD Organization Schema for AEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Ugency",
+      "url": "https://ugency.com/",
+      "logo": "https://ugency.com/logo.png",
+      "description": "Leading digital marketing and software development agency in Kerala.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kerala",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "ugency.in@gmail.com"
+      }
+    }
+    </script>
+
+    <!-- JSON-LD FAQ Schema for Search Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a typical project take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most standard website and branding projects take 2-4 weeks from discovery to launch. Complex custom software can take 2-4 months depending on the scope and integrations required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with international clients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely! While we are headquartered in Kerala, we work with ambitious brands and enterprises globally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in your SEO service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our advanced SEO service includes technical on-page optimization, site speed improvements, AEO (Answer Engine Optimization) schemas, high-quality backlink building, and content strategy designed to dominate local and global search rankings."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0C0C0C',
+                        light: '#D7E2EA',
+                        primary: '#1A23A4',
+                        secondary: '#3F51FF',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="antialiased overflow-x-hidden selection:bg-primary selection:text-white">
+
+<div class="main-wrapper bg-white">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="animate-premium-3d flex items-center justify-center">
+            <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784868431755.png" alt="Ugency Logo" class="h-32 md:h-40 w-auto object-contain">
+        </div>
+    </div>
+
+    <!-- Desktop Navigation (Zynexs Style) -->
+    <nav class="hidden md:grid fixed top-[18px] left-[24px] right-[24px] z-40 grid-cols-[1fr_auto_1fr] items-center transition duration-300 ease-in-out gs-nav opacity-0 pointer-events-none" style="transform: translateY(-20px);" id="navbar">
+        
+        <!-- Brand Mark -->
+        <a href="index.html" class="flex items-center pointer-events-auto justify-self-start">
+            <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784856504310.png" alt="Ugency Logo" class="h-[60px] md:h-[100px] w-auto object-contain flex-shrink-0 scale-110 origin-left">
+        </a>
+
+        <!-- Tubelight Nav -->
+        <div class="tubelight-nav-inner bg-white/70 backdrop-blur-xl border border-gray-200/50 rounded-full flex shadow-[0_8px_24px_rgba(10,27,51,0.04)] pointer-events-auto justify-self-center">
+            <div class="tubelight-lamp"></div>
+            <a href="index.html" class="tubelight-item active">Home</a>
+            <a href="services.html" class="tubelight-item">Services</a>
+            <a href="portfolio.html" class="tubelight-item">Portfolio</a>
+            <a href="contact.html" class="tubelight-item">Contact</a>
+        </div>
+
+        <!-- CTA Button -->
+        <a href="contact.html" class="pointer-events-auto justify-self-end bg-gray-900 text-white px-5 py-2.5 rounded-full font-bold text-sm hover:bg-blue-600 transition-colors shadow-lg flex items-center gap-2">
+            Let's Talk <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
+        </a>
+
+    </nav>
+
+    <!-- Mobile Nav (Zynexs Style iOS Capsule) -->
+    <div class="md:hidden fixed top-[14px] left-[14px] right-[14px] h-[58px] px-2 pl-5 flex justify-between items-center rounded-full z-50 pointer-events-auto transition duration-300 ease-in-out gs-nav opacity-0" 
+         style="transform: translateY(-20px); background: linear-gradient(180deg, rgba(255,255,255,0.78), rgba(255,255,255,0.32)), rgba(255,255,255,0.22); backdrop-filter: blur(26px) saturate(180%); -webkit-backdrop-filter: blur(26px) saturate(180%); border: 1px solid rgba(10,27,51,0.10); box-shadow: inset 0 1px 0 rgba(255,255,255,0.95), inset 0 -1px 0 rgba(10,27,51,0.04), 0 18px 50px rgba(10,27,51,0.14);">
+        
+        <a href="index.html" class="flex items-center">
+            <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784856504310.png" alt="Ugency Logo" class="h-[60px] w-auto object-contain flex-shrink-0 scale-110 origin-left">
+        </a>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Toggle Menu">
+            <svg class="icon-menu" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            <svg class="icon-x" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-drawer closed" id="mobile-menu">
+        <a href="index.html" class="mobile-drawer-link active">Home</a>
+        <a href="services.html" class="mobile-drawer-link">Services</a>
+        <a href="portfolio.html" class="mobile-drawer-link">Portfolio</a>
+        <a href="contact.html" class="mobile-drawer-link">Contact</a>
+        <a href="contact.html" class="mobile-drawer-cta">
+            Start a Project 
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+    </div>
+
+    <!-- Desgro Media Style Hero Section (Light Version) -->
+    <section class="w-full min-h-[100vh] relative bg-white overflow-hidden flex flex-col items-center justify-center z-10" id="hero-section" style="perspective: 1200px;">
+        
+        <!-- Main Typography & CTA -->
+        <div id="hero-breathing-container" class="relative w-full z-20 pointer-events-none flex flex-col items-center justify-center -mt-10" style="transform-style: preserve-3d;">
+            <div class="relative w-full flex flex-col items-center justify-center" id="hero-text-container" style="transform-style: preserve-3d;">
+                <!-- Main Heading -->
+                <h1 class="text-black text-[18vw] md:text-[22vw] leading-none font-black tracking-tighter uppercase mb-4 flex justify-center overflow-hidden" style="transform: translateZ(50px);">
+                    <span class="hero-char inline-block translate-y-[110%]">U</span>
+                    <span class="hero-char inline-block translate-y-[110%]">G</span>
+                    <span class="hero-char inline-block translate-y-[110%]">E</span>
+                    <span class="hero-char inline-block translate-y-[110%]">N</span>
+                    <span class="hero-char inline-block translate-y-[110%]">C</span>
+                    <span class="hero-char inline-block translate-y-[110%]">Y</span>
+                </h1>
+            
+            <!-- Sub Text -->
+            <p class="hero-subtext text-gray-500 text-sm sm:text-base md:text-lg max-w-2xl text-center px-6 font-medium italic tracking-wide mb-8 md:mb-10 opacity-0" style="transform: translateZ(30px);">
+                "We work with businesses that want to build something meaningful—whether that's a new brand, a better product, or a smarter way to grow online."
+            </p>
+            
+            <!-- Modern CTA Button -->
+            <div class="hero-cta opacity-0 pointer-events-auto" style="transform: translateZ(40px);">
+                <a href="contact.html" class="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white bg-[#1a23a4] hover:bg-black rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                    <span class="relative flex items-center gap-2">
+                        ✦ Start a Project
+                    </span>
+                </a>
+            </div>
+            <!-- Premium 3D Stars -->
+            <div class="absolute top-[-5%] md:top-[-10%] right-[5%] md:right-[15%] z-30 pointer-events-none" style="transform: translateZ(120px);">
+                <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784830028238.png" alt="Premium Star" class="w-24 h-24 md:w-36 md:h-36 star-3d-premium">
+            </div>
+            
+            <div class="absolute bottom-[20%] left-[2%] md:left-[10%] z-10 pointer-events-none" style="transform: translateZ(70px);">
+                <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784830028238.png" alt="Premium Star" class="w-16 h-16 md:w-24 md:h-24 star-3d-premium" style="animation-delay: -3s; animation-duration: 9s;">
+            </div>
+            </div>
+        </div>
+
+        <!-- Floating Media (Newly Attached PNG) -->
+        <!-- Media 1: Large, Behind Text, Left -->
+        <img src="ugency_vfv__1_-removebg-preview.png" alt="Ugency Media" class="absolute w-[40vw] md:w-[35vw] top-[20%] md:top-[10%] left-[-10%] md:left-[5%] z-10 opacity-90 floating-logo" data-speed="0.05" data-z="-150" data-rotate="-15" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000';">
+        
+        <!-- Media 2: Medium, In Front of Text, Bottom Right -->
+        <img src="ugency_vfv__1_-removebg-preview.png" alt="Ugency Media" class="absolute w-[35vw] md:w-[25vw] bottom-[30%] md:bottom-[20%] right-[-5%] md:right-[10%] z-30 floating-logo drop-shadow-2xl" data-speed="-0.08" data-z="200" data-rotate="25" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000';">
+        
+        <!-- Media 3: Small, Deep Behind Text, Top Right -->
+        <img src="ugency_vfv__1_-removebg-preview.png" alt="Ugency Media" class="absolute w-[20vw] md:w-[15vw] top-[5%] right-[20%] z-0 opacity-60 blur-[3px] floating-logo" data-speed="0.03" data-z="-300" data-rotate="10" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000';">
+
+
+    </section>
+
+    <!-- Intro Text Section -->
+    <section class="bg-white text-gray-800 py-8 md:py-10 flex items-center relative overflow-hidden z-10">
+        <div class="w-full px-6 sm:w-11/12 xl:w-9/12 mx-auto text-lg xl:text-4xl space-y-2 xl:font-light xl:leading-normal">
+            <h1 class="text-[1.35rem] sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl uppercase font-black tracking-tighter fade-in-obj opacity-0 leading-tight sm:leading-tight md:leading-tight" data-y="40" data-delay="0.1">
+                <span class="text-gray-900">Leading Digital Marketing & Software Development Agency in Kerala.</span>
+            </h1>
+            <p id="animated-text" class="text-gray-600 text-sm sm:text-base md:text-xl lg:text-2xl text-left mt-4 md:mt-5 max-w-4xl font-medium leading-relaxed md:leading-relaxed">
+                We craft high-converting websites, custom software, and data-driven marketing solutions to scale your brand.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-10 xl:py-20 bg-[#1a23a4] rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] text-white relative z-20 border-t border-blue-900 overflow-hidden" id="services-preview">
+        
+        <!-- Liquid Blobs for active glassmorphism -->
+        <div class="absolute top-10 left-10 w-96 h-96 bg-blue-500 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob z-0"></div>
+        <div class="absolute bottom-10 right-10 w-96 h-96 bg-purple-500 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob animation-delay-2000 z-0"></div>
+
+        <div class="w-11/12 xl:w-8/12 mx-auto text-center flex flex-col gap-0 pb-14 items-center relative z-10">
+            <h2 class="font-black text-5xl xl:text-8xl uppercase tracking-tighter text-white fade-in-obj opacity-0" data-y="40">Our Services</h2>
+            <p class="text-blue-200 text-center mt-6 max-w-2xl font-medium fade-in-obj opacity-0" data-y="20" data-delay="0.2">
+                We provide businesses with an expert team that guides them through establishing an online marketing and software strategy.
+            </p>
+        </div>
+        
+        <!-- Modern Cards Grid -->
+        <div class="w-11/12 max-w-7xl mx-auto pb-20 pt-10 flex flex-wrap justify-center gap-6 fade-in-obj opacity-0" data-y="40" data-delay="0.4">
+            
+            <!-- Card 1: Software Dev -->
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+                <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                    <i class="ph ph-code text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-3 tracking-tight">Software Dev</h3>
+                <p class="text-blue-100 font-medium leading-relaxed">Custom web & mobile applications built for scale and premium performance.</p>
+            </a>
+
+            <!-- Card 2: Marketing -->
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+                <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                    <i class="ph ph-trend-up text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-3 tracking-tight">Marketing</h3>
+                <p class="text-blue-100 font-medium leading-relaxed">Data-driven SEO, SEM, and highly converting Social Media campaigns.</p>
+            </a>
+
+            <!-- Card 3: Branding -->
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+                <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                    <i class="ph ph-bezier-curve text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-3 tracking-tight">Branding</h3>
+                <p class="text-blue-100 font-medium leading-relaxed">Crafting memorable visual identities, premium logos, and design systems.</p>
+            </a>
+
+            <!-- Card 4: AI Automation -->
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+                <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                    <i class="ph ph-robot text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-3 tracking-tight">AI Automation</h3>
+                <p class="text-blue-100 font-medium leading-relaxed">Streamlining operations with smart AI workflows and intelligent bots.</p>
+            </a>
+
+            <!-- Card 5: Content Creation -->
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+                <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                    <i class="ph ph-video-camera text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-3 tracking-tight">Content Creation</h3>
+                <p class="text-blue-100 font-medium leading-relaxed">Engaging UGC, high-quality video production, and compelling copywriting.</p>
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- NEW: Our Works / Portfolio Section Merged -->
+    <section class="bg-white rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 z-30 relative px-5 sm:px-8 md:px-10 py-20 pb-40">
+        <div class="w-11/12 xl:w-8/12 mx-auto text-center flex flex-col gap-0 pb-14 items-center">
+            <h2 class="hero-heading font-black text-5xl xl:text-8xl uppercase tracking-tighter mb-4 fade-in-obj opacity-0" data-y="40">Our Works</h2>
+            <p class="text-gray-600 font-medium max-w-2xl fade-in-obj opacity-0" data-y="20" data-delay="0.2">Explore some of our most impactful digital transformations.</p>
+        </div>
+
+        <!-- Sticky Stacking Projects Grid -->
+        <div class="flex flex-col items-center gap-10">
+            <!-- Project 1 -->
+            <div class="project-card sticky top-24 md:top-32 w-full h-[60vh] md:h-[75vh] bg-[#F7F8FC] rounded-[40px] sm:rounded-[50px] border border-gray-200 p-4 sm:p-6 flex flex-col justify-between overflow-hidden shadow-lg" style="z-index: 1;">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4 z-10 relative">
+                    <div class="flex items-center gap-6">
+                        <span class="font-black text-gray-900" style="font-size: clamp(2rem, 5vw, 60px); leading-none;">01</span>
+                        <div class="flex flex-col">
+                            <span class="text-gray-600 uppercase tracking-widest text-xs font-bold">E-Commerce</span>
+                            <span class="text-gray-900 font-black text-xl md:text-3xl uppercase tracking-tight">Jansha</span>
+                        </div>
+                    </div>
+                </div>
+                <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784827533431.png" loading="lazy" alt="Jansha E-commerce mockup" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105 pointer-events-none" style="object-position: center bottom;">
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card sticky top-28 md:top-36 w-full h-[60vh] md:h-[75vh] bg-[#F7F8FC] rounded-[40px] sm:rounded-[50px] border border-gray-200 p-4 sm:p-6 flex flex-col justify-between overflow-hidden shadow-lg" style="z-index: 2;">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4 z-10 relative">
+                    <div class="flex items-center gap-6">
+                        <span class="font-black text-gray-900" style="font-size: clamp(2rem, 5vw, 60px); leading-none;">02</span>
+                        <div class="flex flex-col">
+                            <span class="text-gray-600 uppercase tracking-widest text-xs font-bold">SaaS Software</span>
+                            <span class="text-gray-900 font-black text-xl md:text-3xl uppercase tracking-tight">Hilsal</span>
+                        </div>
+                    </div>
+                </div>
+                <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784827550087.jpg" loading="lazy" alt="Hilsal Dashboard" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105 pointer-events-none">
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card sticky top-32 md:top-40 w-full h-[60vh] md:h-[75vh] bg-[#F7F8FC] rounded-[40px] sm:rounded-[50px] border border-gray-200 p-4 sm:p-6 flex flex-col justify-between overflow-hidden shadow-lg" style="z-index: 3;">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4 z-10 relative">
+                    <div class="flex items-center gap-6">
+                        <span class="font-black text-gray-900" style="font-size: clamp(2rem, 5vw, 60px); leading-none;">03</span>
+                        <div class="flex flex-col">
+                            <span class="text-gray-600 uppercase tracking-widest text-xs font-bold">Corporate</span>
+                            <span class="text-gray-900 font-black text-xl md:text-3xl uppercase tracking-tight">VPK World Trade</span>
+                        </div>
+                    </div>
+                </div>
+                <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784827563727.png" loading="lazy" alt="VPK Corporate Site" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105 pointer-events-none" style="object-position: center top;">
+            </div>
+        </div>
+        
+        <div class="w-full flex justify-center mt-20 relative z-20">
+            <a href="portfolio.html" class="btn-primary">View All Works</a>
+        </div>
+    </section>
+
+    <!-- Our Clients (Bidirectional Marquee) -->
+    <section class="bg-white py-20 pb-32 overflow-hidden relative w-full flex flex-col gap-6 fade-in-obj opacity-0 z-30" data-y="40">
+        <h3 class="hero-heading text-4xl md:text-7xl xl:text-8xl uppercase font-black text-center tracking-tighter mb-10">Our Clients</h3>
+        <!-- Row 1 -->
+        <div class="flex gap-4 md:gap-6 w-max will-change-transform marquee-row-1 items-center">
+            <!-- Client texts -->
+        </div>
+        <!-- Row 2 -->
+        <div class="flex gap-4 md:gap-6 w-max will-change-transform marquee-row-2 items-center">
+            <!-- Client texts -->
+        </div>
+    </section>
+
+    <!-- Auto Moving Testimonials Section -->
+    <section class="bg-gray-50 py-24 pb-32 overflow-hidden relative w-full z-30 border-t border-gray-100">
+        <h3 class="hero-heading text-4xl md:text-6xl xl:text-7xl uppercase font-black text-center tracking-tighter mb-16 fade-in-obj opacity-0" data-y="40">Client Stories</h3>
+        
+        <!-- Marquee Track (Pauses on Hover) -->
+        <div class="relative w-full overflow-hidden flex marquee-container group">
+            
+            <!-- Marquee Content -->
+            <div class="flex marquee-content group-hover:[animation-play-state:paused]">
+                
+                <!-- Card 1: Jansha -->
+                <div class="w-[300px] md:w-[450px] whitespace-normal shrink-0 mx-4 bg-white p-8 md:p-10 rounded-[2rem] border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 relative flex flex-col justify-between">
+                    <div>
+                        <i class="ph-fill ph-quotes text-[#1a23a4] text-5xl opacity-10 absolute top-6 right-8"></i>
+                        <p class="text-lg md:text-2xl font-bold text-gray-800 leading-tight tracking-tight mb-8">
+                            "Ugency didn't just build us a platform, they built our digital foundation. Their premium design approach elevated our brand overnight."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
+                        <div class="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center text-white font-black text-xl">J</div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg hero-heading">Director</p>
+                            <p class="text-xs font-black text-gray-400 uppercase tracking-widest">Jansha</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Hilsal -->
+                <div class="w-[300px] md:w-[450px] whitespace-normal shrink-0 mx-4 bg-white p-8 md:p-10 rounded-[2rem] border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 relative flex flex-col justify-between">
+                    <div>
+                        <i class="ph-fill ph-quotes text-[#1a23a4] text-5xl opacity-10 absolute top-6 right-8"></i>
+                        <p class="text-lg md:text-2xl font-bold text-gray-800 leading-tight tracking-tight mb-8">
+                            "The software they developed for us streamlined our entire operation. They are undoubtedly the best technical partner in Kerala."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
+                        <div class="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center text-white font-black text-xl">H</div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg hero-heading">Manager</p>
+                            <p class="text-xs font-black text-gray-400 uppercase tracking-widest">Hilsal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Bergan -->
+                <div class="w-[300px] md:w-[450px] whitespace-normal shrink-0 mx-4 bg-white p-8 md:p-10 rounded-[2rem] border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 relative flex flex-col justify-between">
+                    <div>
+                        <i class="ph-fill ph-quotes text-[#1a23a4] text-5xl opacity-10 absolute top-6 right-8"></i>
+                        <p class="text-lg md:text-2xl font-bold text-gray-800 leading-tight tracking-tight mb-8">
+                            "Absolutely stunning work. From UI/UX to the final deployment, their team demonstrated top-tier expertise at every single step."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
+                        <div class="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center text-white font-black text-xl">B</div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg hero-heading">Co-Founder</p>
+                            <p class="text-xs font-black text-gray-400 uppercase tracking-widest">Bergan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: VPK World Trade -->
+                <div class="w-[300px] md:w-[450px] whitespace-normal shrink-0 mx-4 bg-white p-8 md:p-10 rounded-[2rem] border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 relative flex flex-col justify-between">
+                    <div>
+                        <i class="ph-fill ph-quotes text-[#1a23a4] text-5xl opacity-10 absolute top-6 right-8"></i>
+                        <p class="text-lg md:text-2xl font-bold text-gray-800 leading-tight tracking-tight mb-8">
+                            "Finding a digital agency that truly understands global trade dynamics is rare. Ugency delivered beyond our expectations."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
+                        <div class="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center text-white font-black text-xl">V</div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg hero-heading">Director</p>
+                            <p class="text-xs font-black text-gray-400 uppercase tracking-widest">VPK World Trade</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Duplicated Cards for infinite scroll illusion -->
+                <!-- Card 1: Jansha -->
+                <div class="w-[300px] md:w-[450px] whitespace-normal shrink-0 mx-4 bg-white p-8 md:p-10 rounded-[2rem] border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 relative flex flex-col justify-between">
+                    <div>
+                        <i class="ph-fill ph-quotes text-[#1a23a4] text-5xl opacity-10 absolute top-6 right-8"></i>
+                        <p class="text-lg md:text-2xl font-bold text-gray-800 leading-tight tracking-tight mb-8">
+                            "Ugency didn't just build us a platform, they built our digital foundation. Their premium design approach elevated our brand overnight."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
+                        <div class="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center text-white font-black text-xl">J</div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg hero-heading">Director</p>
+                            <p class="text-xs font-black text-gray-400 uppercase tracking-widest">Jansha</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Hilsal -->
+                <div class="w-[300px] md:w-[450px] whitespace-normal shrink-0 mx-4 bg-white p-8 md:p-10 rounded-[2rem] border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 relative flex flex-col justify-between">
+                    <div>
+                        <i class="ph-fill ph-quotes text-[#1a23a4] text-5xl opacity-10 absolute top-6 right-8"></i>
+                        <p class="text-lg md:text-2xl font-bold text-gray-800 leading-tight tracking-tight mb-8">
+                            "The software they developed for us streamlined our entire operation. They are undoubtedly the best technical partner in Kerala."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
+                        <div class="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center text-white font-black text-xl">H</div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg hero-heading">Manager</p>
+                            <p class="text-xs font-black text-gray-400 uppercase tracking-widest">Hilsal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Bergan -->
+                <div class="w-[300px] md:w-[450px] whitespace-normal shrink-0 mx-4 bg-white p-8 md:p-10 rounded-[2rem] border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 relative flex flex-col justify-between">
+                    <div>
+                        <i class="ph-fill ph-quotes text-[#1a23a4] text-5xl opacity-10 absolute top-6 right-8"></i>
+                        <p class="text-lg md:text-2xl font-bold text-gray-800 leading-tight tracking-tight mb-8">
+                            "Absolutely stunning work. From UI/UX to the final deployment, their team demonstrated top-tier expertise at every single step."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
+                        <div class="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center text-white font-black text-xl">B</div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg hero-heading">Co-Founder</p>
+                            <p class="text-xs font-black text-gray-400 uppercase tracking-widest">Bergan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: VPK World Trade -->
+                <div class="w-[300px] md:w-[450px] whitespace-normal shrink-0 mx-4 bg-white p-8 md:p-10 rounded-[2rem] border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 relative flex flex-col justify-between">
+                    <div>
+                        <i class="ph-fill ph-quotes text-[#1a23a4] text-5xl opacity-10 absolute top-6 right-8"></i>
+                        <p class="text-lg md:text-2xl font-bold text-gray-800 leading-tight tracking-tight mb-8">
+                            "Finding a digital agency that truly understands global trade dynamics is rare. Ugency delivered beyond our expectations."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
+                        <div class="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center text-white font-black text-xl">V</div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg hero-heading">Director</p>
+                            <p class="text-xs font-black text-gray-400 uppercase tracking-widest">VPK World Trade</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-white py-20 pb-32 relative z-30 border-t border-gray-100">
+        <div class="w-11/12 xl:w-8/12 mx-auto max-w-5xl">
+            <h2 class="hero-heading font-black text-5xl md:text-7xl uppercase tracking-tighter mb-4 text-center fade-in-obj opacity-0" data-y="40">FAQs</h2>
+            <p class="text-gray-600 text-center mb-16 text-lg font-medium fade-in-obj opacity-0" data-y="20" data-delay="0.2">Everything you need to know about partnering with us.</p>
+            
+            <div class="faq-container space-y-4 fade-in-obj opacity-0" data-y="40" data-delay="0.3">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item border-b border-gray-200 overflow-hidden group">
+                    <button class="faq-button w-full text-left py-6 flex justify-between items-center focus:outline-none transition-colors duration-300">
+                        <span class="text-xl md:text-3xl font-bold tracking-tight text-gray-900 group-hover:text-[#1a23a4] transition-colors duration-300">What services do you offer?</span>
+                        <div class="faq-icon relative w-6 h-6 flex items-center justify-center text-gray-400 group-hover:text-[#1a23a4] transition-all duration-300">
+                            <span class="absolute w-full h-[2px] bg-current rounded-full"></span>
+                            <span class="absolute w-[2px] h-full bg-current rounded-full transition-transform duration-300"></span>
+                        </div>
+                    </button>
+                    <div class="faq-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                        <div class="overflow-hidden">
+                            <p class="pb-8 text-gray-600 font-medium leading-relaxed text-lg max-w-4xl">
+                                We specialize in high-end Software Development, Data-Driven Digital Marketing, premium Branding, and advanced AI Automation. We craft tailored strategies and build scalable products that help businesses grow online.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item border-b border-gray-200 overflow-hidden group">
+                    <button class="faq-button w-full text-left py-6 flex justify-between items-center focus:outline-none transition-colors duration-300">
+                        <span class="text-xl md:text-3xl font-bold tracking-tight text-gray-900 group-hover:text-[#1a23a4] transition-colors duration-300">How long does a project typically take?</span>
+                        <div class="faq-icon relative w-6 h-6 flex items-center justify-center text-gray-400 group-hover:text-[#1a23a4] transition-all duration-300">
+                            <span class="absolute w-full h-[2px] bg-current rounded-full"></span>
+                            <span class="absolute w-[2px] h-full bg-current rounded-full transition-transform duration-300"></span>
+                        </div>
+                    </button>
+                    <div class="faq-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                        <div class="overflow-hidden">
+                            <p class="pb-8 text-gray-600 font-medium leading-relaxed text-lg max-w-4xl">
+                                Project timelines vary depending on complexity. A premium landing page might take 2-4 weeks, while custom software development can range from 2-6 months. We provide a detailed timeline during the discovery phase.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item border-b border-gray-200 overflow-hidden group">
+                    <button class="faq-button w-full text-left py-6 flex justify-between items-center focus:outline-none transition-colors duration-300">
+                        <span class="text-xl md:text-3xl font-bold tracking-tight text-gray-900 group-hover:text-[#1a23a4] transition-colors duration-300">Do you work with startups or established brands?</span>
+                        <div class="faq-icon relative w-6 h-6 flex items-center justify-center text-gray-400 group-hover:text-[#1a23a4] transition-all duration-300">
+                            <span class="absolute w-full h-[2px] bg-current rounded-full"></span>
+                            <span class="absolute w-[2px] h-full bg-current rounded-full transition-transform duration-300"></span>
+                        </div>
+                    </button>
+                    <div class="faq-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                        <div class="overflow-hidden">
+                            <p class="pb-8 text-gray-600 font-medium leading-relaxed text-lg max-w-4xl">
+                                We work with both! Whether you are a fresh startup needing a completely new brand identity and MVP, or an established company looking to scale through digital marketing and automation, we adapt our expertise to your stage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item border-b border-gray-200 overflow-hidden group">
+                    <button class="faq-button w-full text-left py-6 flex justify-between items-center focus:outline-none transition-colors duration-300">
+                        <span class="text-xl md:text-3xl font-bold tracking-tight text-gray-900 group-hover:text-[#1a23a4] transition-colors duration-300">What is your pricing structure?</span>
+                        <div class="faq-icon relative w-6 h-6 flex items-center justify-center text-gray-400 group-hover:text-[#1a23a4] transition-all duration-300">
+                            <span class="absolute w-full h-[2px] bg-current rounded-full"></span>
+                            <span class="absolute w-[2px] h-full bg-current rounded-full transition-transform duration-300"></span>
+                        </div>
+                    </button>
+                    <div class="faq-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                        <div class="overflow-hidden">
+                            <p class="pb-8 text-gray-600 font-medium leading-relaxed text-lg max-w-4xl">
+                                We create custom proposals based on your unique needs and goals. We believe in high-value, transparent pricing that ensures premium quality and measurable ROI. Reach out for a free consultation and estimate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="bg-white pb-4 md:pb-8 relative z-30">
+        <footer class="bg-gray-950 text-white pt-24 pb-12 relative overflow-hidden mx-4 md:mx-8 rounded-[40px] md:rounded-[60px] shadow-2xl group border border-white/10">
+            
+            <!-- Animated 3D Liquid Blobs -->
+            <div class="absolute top-[-20%] left-[-10%] w-[400px] h-[400px] bg-blue-600 rounded-full mix-blend-screen filter blur-[100px] opacity-70 animate-blob z-0 transition-opacity duration-700 group-hover:opacity-100"></div>
+            <div class="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-[#3F51FF] rounded-full mix-blend-screen filter blur-[120px] opacity-50 animate-blob animation-delay-2000 z-0 transition-opacity duration-700 group-hover:opacity-80"></div>
+            <div class="absolute top-[20%] left-[30%] w-[400px] h-[400px] bg-indigo-500 rounded-full mix-blend-screen filter blur-[90px] opacity-60 animate-blob animation-delay-4000 z-0 transition-opacity duration-700 group-hover:opacity-100"></div>
+
+            <!-- Glassmorphism Overlay Layer -->
+            <div class="absolute inset-0 bg-gray-950/60 backdrop-blur-[80px] z-10 pointer-events-none"></div>
+
+            <!-- Footer Content (z-20) -->
+            <div class="w-11/12 xl:w-10/12 mx-auto relative z-20">
+            <div class="text-center mb-20 fade-in-obj opacity-0" data-y="30">
+                <h2 class="text-5xl md:text-8xl font-black uppercase tracking-tighter text-white">Let's Work</h2>
+                <h2 class="text-5xl md:text-8xl font-black uppercase tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#3F51FF]">Together.</h2>
+                <a href="contact.html" class="mt-10 inline-block bg-white text-gray-950 font-bold text-lg px-10 py-5 rounded-full hover:scale-105 transition-transform duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]">Start a Project</a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12 pt-12 border-t border-gray-800 text-center md:text-left">
+                <div class="flex flex-col items-center md:items-start">
+                    <div class="flex items-center justify-center md:justify-start">
+                        <img src="/home/fawas/.gemini/antigravity/brain/aa234602-19aa-439e-81a8-066e07bbb8c4/media__1784866428237.png" alt="Ugency Logo" class="h-[80px] md:h-[120px] w-auto object-contain scale-110 origin-center md:origin-left">
+                    </div>
+                    <p class="text-gray-400 mt-4 text-sm leading-relaxed max-w-xs mx-auto md:mx-0">Premium digital marketing and software development agency driving growth for modern brands.</p>
+                    <ul class="flex justify-center md:justify-start py-6 gap-4">
+                        <li><a href="#" class="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center text-xl text-white hover:bg-[#3F51FF] hover:-translate-y-1 transition-all duration-300"><i class="ph-fill ph-facebook-logo"></i></a></li>
+                        <li><a href="https://www.instagram.com/ugency.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center text-xl text-white hover:bg-[#3F51FF] hover:-translate-y-1 transition-all duration-300"><i class="ph-fill ph-instagram-logo"></i></a></li>
+                        <li><a href="#" class="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center text-xl text-white hover:bg-[#3F51FF] hover:-translate-y-1 transition-all duration-300"><i class="ph-fill ph-linkedin-logo"></i></a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col items-center md:items-start">
+                    <p class="text-sm font-black uppercase text-gray-500 tracking-widest">Pages</p>
+                    <ul class="text-base flex flex-col items-center md:items-start gap-3 mt-6 font-medium">
+                        <li><a href="index.html" class="foot-underline-hover-effect text-gray-300 hover:text-white transition-colors w-fit">Home</a></li>
+                        <li><a href="services.html" class="foot-underline-hover-effect text-gray-300 hover:text-white transition-colors w-fit">Services</a></li>
+                        <li><a href="portfolio.html" class="foot-underline-hover-effect text-gray-300 hover:text-white transition-colors w-fit">Portfolio</a></li>
+                        <li><a href="contact.html" class="foot-underline-hover-effect text-gray-300 hover:text-white transition-colors w-fit">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col items-center md:items-start">
+                    <p class="text-sm font-black uppercase text-gray-500 tracking-widest">Services</p>
+                    <ul class="text-base flex flex-col items-center md:items-start gap-3 mt-6 font-medium">
+                        <li><a href="services.html" class="foot-underline-hover-effect text-gray-300 hover:text-white transition-colors w-fit">Branding & UI/UX</a></li>
+                        <li><a href="services.html" class="foot-underline-hover-effect text-gray-300 hover:text-white transition-colors w-fit">Custom Software</a></li>
+                        <li><a href="services.html" class="foot-underline-hover-effect text-gray-300 hover:text-white transition-colors w-fit">Digital Marketing</a></li>
+                        <li><a href="services.html" class="foot-underline-hover-effect text-gray-300 hover:text-white transition-colors w-fit">SEO & Automation</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col items-center md:items-start">
+                    <p class="text-sm font-black uppercase text-gray-500 tracking-widest">Contact</p>
+                    <p class="text-base mt-6 text-gray-300 leading-relaxed font-medium">
+                        Calicut & Kochi,<br>
+                        Kerala, India
+                    </p>
+                    <a href="mailto:ugency.in@gmail.com" class="inline-block text-xl mt-6 font-bold foot-underline-hover-effect text-white">ugency.in@gmail.com</a>
+                </div>
+            </div>
+            
+            <!-- Legal Footer -->
+            <div class="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 font-medium">
+                <p>&copy; 2026 Ugency. All rights reserved.</p>
+                <div class="flex gap-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+</div>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- Custom Script -->
+<script src="script.js"></script>
+</body>
+</html>
