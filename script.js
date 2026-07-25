@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         
         text.split('').forEach(char => {
             if (char === ' ') {
-                animatedText.innerHTML += `<span>&nbsp;</span>`;
+                animatedText.innerHTML += ' '; // Use a normal space to allow mobile word wrapping
             } else {
                 animatedText.innerHTML += `<span class="char-reveal">${char}</span>`;
             }
