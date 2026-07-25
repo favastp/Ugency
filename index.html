@@ -271,9 +271,9 @@
     <!-- Services Section -->
     <section class="py-10 xl:py-20 bg-[#1a23a4] rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] text-white relative z-20 border-t border-blue-900 overflow-hidden" id="services-preview">
         
-        <!-- Liquid Blobs for active glassmorphism -->
-        <div class="absolute top-10 left-10 w-96 h-96 bg-blue-500 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob z-0"></div>
-        <div class="absolute bottom-10 right-10 w-96 h-96 bg-purple-500 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob animation-delay-2000 z-0"></div>
+        <!-- Liquid Blobs for active glassmorphism (Disabled on mobile for performance) -->
+        <div class="hidden md:block absolute top-10 left-10 w-96 h-96 bg-blue-500 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob z-0" style="will-change: transform;"></div>
+        <div class="hidden md:block absolute bottom-10 right-10 w-96 h-96 bg-purple-500 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob animation-delay-2000 z-0" style="will-change: transform;"></div>
 
         <div class="w-11/12 xl:w-8/12 mx-auto text-center flex flex-col gap-0 pb-14 items-center relative z-10">
             <h2 class="font-black text-5xl xl:text-8xl uppercase tracking-tighter text-white fade-in-obj opacity-0" data-y="40">Our Services</h2>
@@ -286,7 +286,7 @@
         <div class="w-11/12 max-w-7xl mx-auto pb-20 pt-10 flex flex-wrap justify-center gap-6 fade-in-obj opacity-0" data-y="40" data-delay="0.4">
             
             <!-- Card 1: Software Dev -->
-            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[20px] md:backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
                 <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
                     <i class="ph ph-code text-2xl"></i>
                 </div>
@@ -295,7 +295,7 @@
             </a>
 
             <!-- Card 2: Marketing -->
-            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[20px] md:backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
                 <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
                     <i class="ph ph-trend-up text-2xl"></i>
                 </div>
@@ -304,7 +304,7 @@
             </a>
 
             <!-- Card 3: Branding -->
-            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[20px] md:backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
                 <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
                     <i class="ph ph-bezier-curve text-2xl"></i>
                 </div>
@@ -313,7 +313,7 @@
             </a>
 
             <!-- Card 4: AI Automation -->
-            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
+            <a href="services.html" class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] bg-transparent backdrop-blur-[20px] md:backdrop-blur-[40px] border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden group transition-all duration-500 hover:-translate-y-2 hover:border-white/50 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:bg-white/5">
                 <div class="w-12 h-12 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform duration-300 shadow-inner">
                     <i class="ph ph-robot text-2xl"></i>
                 </div>
