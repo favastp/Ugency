@@ -335,49 +335,41 @@
             <p class="text-gray-600 font-medium max-w-2xl fade-in-obj opacity-0" data-y="20" data-delay="0.2">Explore some of our most impactful digital transformations.</p>
         </div>
 
-        <!-- Sticky Stacking Projects Grid -->
-        <div class="flex flex-col items-center gap-10">
-            <!-- Project 1 -->
-            <div class="project-card sticky top-24 md:top-32 w-full h-[60vh] md:h-[75vh] bg-[#F7F8FC] rounded-[40px] sm:rounded-[50px] border border-gray-200 p-4 sm:p-6 flex flex-col justify-between overflow-hidden shadow-lg" style="z-index: 1;">
-                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4 z-10 relative">
-                    <div class="flex items-center gap-6">
-                        <span class="font-black text-gray-900" style="font-size: clamp(2rem, 5vw, 60px); leading-none;">01</span>
-                        <div class="flex flex-col">
-                            <span class="text-gray-600 uppercase tracking-widest text-xs font-bold">E-Commerce</span>
-                            <span class="text-gray-900 font-black text-xl md:text-3xl uppercase tracking-tight">Jansha</span>
-                        </div>
-                    </div>
+        <!-- Premium Bento Box / Mood Board Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 md:gap-6 w-full max-w-7xl mx-auto h-auto md:h-[800px]">
+            
+            <!-- Project 1 (Large Landscape, spans 2 cols) -->
+            <a href="portfolio.html" class="project-card relative group rounded-[30px] overflow-hidden md:col-span-2 md:row-span-1 shadow-xl h-[400px] md:h-full flex items-end p-6 md:p-10 cursor-pointer">
+                <img src="assets/images/media__1784827533431.png" loading="lazy" alt="Jansha E-commerce mockup" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" style="object-position: center bottom;">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500"></div>
+                
+                <div class="relative z-10 text-white transform transition-transform duration-500 group-hover:-translate-y-2">
+                    <span class="text-white/80 uppercase tracking-widest text-xs md:text-sm font-bold block mb-2">01 — E-Commerce</span>
+                    <span class="font-black text-3xl md:text-5xl uppercase tracking-tight leading-none block">Jansha</span>
                 </div>
-                <img src="assets/images/media__1784827533431.png" loading="lazy" alt="Jansha E-commerce mockup" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105 pointer-events-none" style="object-position: center bottom;">
-            </div>
+            </a>
 
-            <!-- Project 2 -->
-            <div class="project-card sticky top-28 md:top-36 w-full h-[60vh] md:h-[75vh] bg-[#F7F8FC] rounded-[40px] sm:rounded-[50px] border border-gray-200 p-4 sm:p-6 flex flex-col justify-between overflow-hidden shadow-lg" style="z-index: 2;">
-                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4 z-10 relative">
-                    <div class="flex items-center gap-6">
-                        <span class="font-black text-gray-900" style="font-size: clamp(2rem, 5vw, 60px); leading-none;">02</span>
-                        <div class="flex flex-col">
-                            <span class="text-gray-600 uppercase tracking-widest text-xs font-bold">SaaS Software</span>
-                            <span class="text-gray-900 font-black text-xl md:text-3xl uppercase tracking-tight">Hilsal</span>
-                        </div>
-                    </div>
+            <!-- Project 2 (Tall Portrait, spans 1 col, 2 rows) -->
+            <a href="portfolio.html" class="project-card relative group rounded-[30px] overflow-hidden md:col-span-1 md:row-span-2 shadow-xl h-[400px] md:h-full flex items-end p-6 md:p-10 cursor-pointer">
+                <img src="assets/images/media__1784827550087.jpg" loading="lazy" alt="Hilsal Dashboard" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500"></div>
+                
+                <div class="relative z-10 text-white transform transition-transform duration-500 group-hover:-translate-y-2">
+                    <span class="text-white/80 uppercase tracking-widest text-xs md:text-sm font-bold block mb-2">02 — SaaS Software</span>
+                    <span class="font-black text-3xl md:text-5xl uppercase tracking-tight leading-none block">Hilsal</span>
                 </div>
-                <img src="assets/images/media__1784827550087.jpg" loading="lazy" alt="Hilsal Dashboard" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105 pointer-events-none">
-            </div>
+            </a>
 
-            <!-- Project 3 -->
-            <div class="project-card sticky top-32 md:top-40 w-full h-[60vh] md:h-[75vh] bg-[#F7F8FC] rounded-[40px] sm:rounded-[50px] border border-gray-200 p-4 sm:p-6 flex flex-col justify-between overflow-hidden shadow-lg" style="z-index: 3;">
-                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4 z-10 relative">
-                    <div class="flex items-center gap-6">
-                        <span class="font-black text-gray-900" style="font-size: clamp(2rem, 5vw, 60px); leading-none;">03</span>
-                        <div class="flex flex-col">
-                            <span class="text-gray-600 uppercase tracking-widest text-xs font-bold">Corporate</span>
-                            <span class="text-gray-900 font-black text-xl md:text-3xl uppercase tracking-tight">VPK World Trade</span>
-                        </div>
-                    </div>
+            <!-- Project 3 (Square, spans 2 cols, 1 row on bottom left) -->
+            <a href="portfolio.html" class="project-card relative group rounded-[30px] overflow-hidden md:col-span-2 md:row-span-1 shadow-xl h-[400px] md:h-full flex items-end p-6 md:p-10 cursor-pointer">
+                <img src="assets/images/media__1784827563727.png" loading="lazy" alt="VPK Corporate Site" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" style="object-position: center 20%;">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500"></div>
+                
+                <div class="relative z-10 text-white transform transition-transform duration-500 group-hover:-translate-y-2">
+                    <span class="text-white/80 uppercase tracking-widest text-xs md:text-sm font-bold block mb-2">03 — Corporate</span>
+                    <span class="font-black text-3xl md:text-5xl uppercase tracking-tight leading-none block">VPK World Trade</span>
                 </div>
-                <img src="assets/images/media__1784827563727.png" loading="lazy" alt="VPK Corporate Site" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105 pointer-events-none" style="object-position: center top;">
-            </div>
+            </a>
         </div>
         
         <div class="w-full flex justify-center mt-20 relative z-20">
